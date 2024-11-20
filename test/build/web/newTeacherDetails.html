@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Teacher Details</title>
+    <link rel="stylesheet" href="newStudentDetails.css">
+</head>
+<body>
+    <div class="container">
+        <h1>New Teacher Details</h1>
+        <form>
+            <div class="form-row">
+                <label for="name">Name</label>
+                <input type="text" id="name">
+                <label for="father-name" class="abc">Father's Name</label>
+                <input type="text" id="father-name">
+            </div>
+
+            <div class="form-row">
+                <label for="emp-id">Employee Id</label>
+                <input type="text" id="emp-id" value="1011449" readonly>
+                <label for="dob" class="abc">Date of Birth</label>
+                <input type="date" id="dob">
+            </div>
+
+            <div class="form-row">
+                <label for="address">Address</label>
+                <input type="text" id="address">
+                <label for="phone" class="abc">Phone</label>
+                <input type="text" id="phone">
+            </div>
+
+            <div class="form-row">
+                <label for="email">Email Id</label>
+                <input type="email" id="email">
+                <label for="class-x" class="abc">Class X (%)</label>
+                <input type="text" id="class-x">
+            </div>
+
+            <div class="form-row">
+                <label for="class-xii">Class XII (%)</label>
+                <input type="text" id="class-xii">
+                <label for="aadhar" class="abc">Aadhar Number</label>
+                <input type="text" id="aadhar">
+            </div>
+
+            <div class="form-row">
+                <label for="qualification">Qualification</label>
+                <select id="qualification">
+                    <option value="btech">B.Tech</option>
+                    <option value="mtech">M.Tech</option>
+                    <option value="phd">Ph.D</option>
+                </select>
+                <label for="department" class="abc">Department</label>
+                <select id="department">
+                    <option value="cs">Computer Science</option>
+                    <option value="ee">Electrical Engineering</option>
+                    <option value="me">Mechanical Engineering</option>
+                </select>
+            </div>
+
+            <div class="form-buttons">
+                <button type="submit" class="btn">Submit</button>
+                <button type="button" class="btn">Cancel</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
